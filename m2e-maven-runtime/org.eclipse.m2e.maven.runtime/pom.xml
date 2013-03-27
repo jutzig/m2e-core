@@ -192,7 +192,7 @@
               org.codehaus.plexus.*,
               org.sonatype.plexus.*,
               org.sonatype.aether.*,
-              com.google.inject.*,
+              com.google.inject.*;aop="sisu";mandatory:="aop",
               org.sonatype.maven.wagon.*,
             </_exportcontents>
 
